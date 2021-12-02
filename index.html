@@ -1,0 +1,93 @@
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = canvas.width / 2;
+  var centerY = canvas.height / 2;
+  var radius = 70;
+
+  context.beginPath();
+  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+  context.fillStyle = 'green';
+  context.fill();
+  context.lineWidth = 6;
+  context.strokeStyle = '#003300';
+  context.stroke();
+  var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.rect(260, 70, 30 , 30);
+      context.fillStyle = 'yellow';
+      context.fill();
+      context.lineWidth = 7;
+      context.strokeStyle = 'black';
+      context.stroke();
+      
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.rect(300, 70, 30, 30);
+      context.fillStyle = 'blue';
+      context.fill();
+      context.lineWidth = 7;
+      context.strokeStyle = 'black';
+      context.stroke();
+
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.rect(260,110, 30, 30);
+      context.fillStyle = 'pink';
+      context.fill();
+      context.lineWidth = 7;
+      context.strokeStyle = 'black';
+      context.stroke();
+
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.rect(300,110, 30, 30);
+      context.fillStyle = 'cyan';
+      context.fill();
+      context.lineWidth = 7;
+      context.strokeStyle = 'black';
+      context.stroke();
+</script>    
+
+
+
+<!-- function draw() {
+    var canvas = document.getElementById('canvas');
+    if (canvas.getContext) {
+       var ctx = canvas.getContext('2d');
+  
+      ctx.beginPath();
+      ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+      ctx.moveTo(110, 75);
+      ctx.arc(75, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
+      ctx.moveTo(65, 65);
+      ctx.arc(60, 65, 5, 0, Math.PI * 2, true);  // Left eye
+      ctx.moveTo(95, 65);
+      ctx.arc(90, 65, 5, 0, Math.PI * 2, true);  // Right eye
+      ctx.stroke();
+    }
+  }
+   -->
+
+
+  <!-- var c=document.getElementById("myCanvas");
+var pen=c.getContext("2d");
+pen.moveTo(100,0);
+pen.strokeStyle="red";
+pen.lineTo(200,100);
+pen.stroke();
+
+pen.beginPath();
+pen.arc(200,100,50,0, 2*Math.PI);
+pen.fill();
+pen.rect(20,20,50,50);
+pen.stroke(); -->
